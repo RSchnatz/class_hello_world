@@ -1,10 +1,11 @@
 #pragma once // prevents multiple definitions
 
 #include <iostream> // print library
+#include <string>
 
 // Exercise 1: print text
 
-void printText(string x)
+string printText(string x)
 {
-std::cout << x << std::endl:
+return x;
 }
