@@ -5,7 +5,7 @@
 
 // Exercise 1: print text
 
-string printText(string x)
+std::string printText(std::string x)
 {
 return x;
 }
