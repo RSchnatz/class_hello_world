@@ -2,22 +2,9 @@
 
 #include <iostream> // print library
 
-// Exercise 1: implements function 'add', that adds two numbers
-int add(int a, int b);
+// Exercise 1: print text
 
-// Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b);
-
-// ===============
-// implementations
-
-int add(int a, int b)
+void printText(string x)
 {
-   return 0; // TODO: fix
-}
-
-// Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b)
-{
-   return 0; // TODO: fix
+std::cout << x << std::endl:
 }
