@@ -13,15 +13,7 @@
 
 TEST_CASE("Ex1", "[example]")
 {
-    REQUIRE(add(1,1) == 2);
+    REQUIRE(printText("test") == "test");
 }
 
-// =====================
-// tests for exercise 2
-// ---------------------
-
-TEST_CASE("Ex2", "[example]")
-{
-    REQUIRE(mul(3,3) == 9);
-}
 
